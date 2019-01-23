@@ -1,29 +1,14 @@
 {
   "manifest_version": 2,
-  "name": "rpa-ext2",
+  "name": "konno-san",
   "version": "1.0",
-  "description": "",
-  "browser_action": {
-    "default_icon": "128x128.png"
+  "description": "Mr.Konno says 'Yabe!'",
+  "icons" : {
+    "128": "icons/icon128.png"
   },
   "content_scripts": [{
     "matches": ["<all_urls>"],
-    "js": ["content_script.js"]
-  }],
-  "background": {
-    "scripts": ["background.js"],
-    "persistent": false
-  },
-  "permissions": [
-    "<all_urls>",
-    "tabs"
-  ],
-  "externally_connectable": {
-    "matches": [
-      "http://localhost:3000/"
-    ]
-  },
-  "icons" : {
-    "128": "128x128.png"
-  }
+    "js": ["content_script.js"],
+    "css": ["content.css"]
+  }]
 }
