@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "konno-san",
   "version": "1.0",
-  "description": "Mr.Konno says 'Yabe!'",
+  "description": "Mr.Konno says 'やべっ'",
   "icons" : {
     "128": "icons/icon128.png"
   },
