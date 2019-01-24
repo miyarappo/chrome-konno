@@ -14,15 +14,20 @@
 //   console.log(event)
 // })
 
-const onMouse = evt => {
-  console.log(evt)
+// const onMouse = evt => {
+  // console.log(evt)
   // console.log('test', chrome.extension.getURL('icons/icon128.png'))
-  // evt.target.style.backgroundImage = chrome.extension.getURL('icons/icon128.png')
-  var icon = document.createElement('img').setAttribute('src', chrome.extension.getURL('icons/icon128.png'))
-  evt.target.appendChild(icon)
-}
+  // const test = document.querySelector(evt.target)
+  // console.log(evt.target)
+  // evt.target.style.backgroundImage = 'https://www.dropbox.com/s/lj09xljtfp8c5zb/favicon.png?dl=0'
+  // console.log(evt.target)
+  // evt.target.style.border = "2px solid #f00"
+  // var icon = document.createElement('img').setAttribute('src', 'https://www.dropbox.com/s/lj09xljtfp8c5zb/favicon.png?dl=0')
+  // console.log(icon)
+  // evt.target.appendChild(icon)
+// }
 
-document.addEventListener("mousemove", onMouse)
+// document.addEventListener("click", onMouse)
 // document.removeEventListener("mousemove", onMouse)
 
 
